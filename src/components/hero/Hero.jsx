@@ -35,6 +35,7 @@ const Hero = () => {
             initial="hidden"
             animate="visible"
             transition={{ delay: 0.6, duration: 1.5 }}
+            className="hero-img-holder"
           >
             <div className="hero-img"></div>
           </motion.div>
