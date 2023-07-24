@@ -1,0 +1,111 @@
+@import "./../../styles/variables";
+@import "./../../styles/mixins";
+.services-section {
+  background-image: url("./../../assets/images/services-section-background.png");
+  background-size: 100% 130%;
+  padding: 5rem 0rem;
+}
+.title {
+ @include title;
+}
+.services-card-holder {
+  @include container;
+  font-family: Roboto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 3rem;
+  @media (max-width: 1382px) {
+    gap: 3rem 0.5rem;
+  }
+  @media (max-width: 1195px) {
+    justify-content: center;
+  }
+  .services-card {
+    max-width: 480px;
+    border: 1px solid $primary;
+    box-shadow: 0 6px 15px rgba(34, 22, 93, 0.2);
+    border-radius: 10px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #ffffff;
+    @media (max-width: 1482px) {
+      max-width: 450px;
+    }
+    @media (max-width: 1382px) {
+      max-width: 400px;
+    }
+    @media (max-width: 1195px) {
+      max-width: 450px;
+    }
+    &:hover {
+      background-color: $primary;
+      color: #ffffff;
+      transition: all 0.5s ease-in;
+      .card-butn {
+        background-color: #ffffff;
+        color: $primary;
+        width: fit-content;
+        border-radius: 5px;
+        padding: 6px 12px;
+      }
+      .card-header {
+        .card-title {
+          color: #ffffff;
+        }
+      }
+    }
+    &:not(:hover) {
+      transition: all 0.3s ease-in;
+    }
+    .card-header {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      .card-header-img-holder {
+        padding: 0.5rem;
+        background-color: $primary;
+        border-radius: 5px;
+        @media (max-width: 767px) {
+          padding: 0.4rem;
+          img {
+            max-width: 35px;
+          }
+        }
+      }
+      .card-title {
+        color: $textprimary;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        display: flex;
+        align-items: end;
+        padding-bottom: 7px;
+        @media (max-width: 767px) {
+          font-size: 20px;
+          padding-bottom: 9px;
+        }
+      }
+    }
+    .card-pera {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+    }
+    .card-butn {
+      color: #0950c9;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      padding: 6px 12px;
+    }
+  }
+}
+.services-btn {
+  @include butn;
+  margin: 5rem auto 0rem auto;
+  line-height: 31px;
+}

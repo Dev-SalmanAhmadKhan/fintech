@@ -26,3 +26,18 @@
               padding: 3px 12px;
           }
  }
+ @mixin title{
+   padding: 4rem 0rem;
+   margin-top: 8rem;
+   text-align: center;
+   font-size: 40px;
+   font-weight: 600;
+   text-decoration: underline 5px solid $secondry;
+   text-underline-offset: 10px;
+   font-family: Roboto;
+   @media (max-width: 767px) {
+     padding: 2rem 0rem;
+     font-size: 24px;
+     font-weight: 500;
+   }
+ }
