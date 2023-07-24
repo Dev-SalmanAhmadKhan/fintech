@@ -1,9 +1,9 @@
-import Testimonials from "../../components/testimonials/Testimonials";
+import Trustedby from "../../components/trustedby/Trustedby";
 import './home.scss';
 const Home = () => {
     return ( 
         <>
-        <Testimonials/>
+       <Trustedby/>
         </>
      );
 }
