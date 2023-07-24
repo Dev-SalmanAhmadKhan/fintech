@@ -1,9 +1,9 @@
-import WhyUS from "../../components/whyus/WhyUs";
+import Testimonials from "../../components/testimonials/Testimonials";
 import './home.scss';
 const Home = () => {
     return ( 
         <>
-        <WhyUS/>
+        <Testimonials/>
         </>
      );
 }
