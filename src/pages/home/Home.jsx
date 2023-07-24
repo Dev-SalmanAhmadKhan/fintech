@@ -1,9 +1,11 @@
-import Services from "../../components/services/Services";
+import About from "../../components/aboutus/About";
+import Achievements from "../../components/achievements/Achievements";
 import './home.scss';
 const Home = () => {
     return ( 
         <>
-        <Services/>
+        <About/>
+        <Achievements/>
         </>
      );
 }
