@@ -1,11 +1,9 @@
-import About from "../../components/aboutus/About";
-import Achievements from "../../components/achievements/Achievements";
+import WhyUS from "../../components/whyus/WhyUs";
 import './home.scss';
 const Home = () => {
     return ( 
         <>
-        <About/>
-        <Achievements/>
+        <WhyUS/>
         </>
      );
 }
