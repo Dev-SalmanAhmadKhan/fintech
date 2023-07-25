@@ -1,0 +1,97 @@
+@import "./../../styles/variables";
+@import "./../../styles/mixins";
+@font-face {
+  font-family: "Akshar";
+  src:local('Akshar'), url("../../assets/Akshar/static/Akshar-Regular.woff") format('woff');
+  font-weight:normal;
+}
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src:local('Plus Jakarta Sans'), url("../../assets/plus-jakarta-sans/static/PlusJakartaSans-Regular.woff") format('woff');
+  font-weight:normal;
+}
+.hero-section {
+  padding-top: 5rem;
+  gap: 1.5rem 0rem;
+  @media (max-width: 767px) {
+    padding-top: 0.5rem;
+  }
+}
+.hero-text {
+  padding: 3rem 2rem 3rem 20%;
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 992px) {
+    padding: 5rem 3rem 5rem 12%;
+  }
+  @media (max-width: 767px) {
+    padding: 3rem 3rem 3rem 8%;
+  }
+  @media (max-width: 457px) {
+    padding: 1rem 0rem 1.5rem 1%;
+  }
+
+  .hero-title {
+    font-family: 'Akshar';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    color: $textsecondry;
+    border-top: 5px solid $primary;
+    border-image: linear-gradient(to right, $secondry 100px, transparent 100px)
+      100% 1;
+    padding-top: 8px;
+    line-height: 1.1;
+    @media (max-width: 992px) {
+      font-size: 40px;
+      font-weight: 500;
+    }
+    @media (max-width: 767px) {
+      font-size: 32px;
+      font-weight: 500;
+      border-top: 4px solid $primary;
+      padding-top: 6px;
+    }
+    @media (max-width: 457px) {
+      font-size: 24px;
+      font-weight: 500;
+      border-top: 3px solid $primary;
+    }
+    span {
+      color: $secondry;
+    }
+  }
+  .hero-pera {
+    font-family:" Plus Jakarta Sans";
+    font-size: 16px;
+    font-weight: 400;
+    color: $textsecondry;
+  }
+  .hero-btn {
+    font-size: 16px;
+    line-height: 31px;
+    margin-top: 1rem;
+    @include butn;
+  }
+}
+.hero-img {
+  width: 100%;
+  height: 100%;
+  min-height:40vh;
+  background-image: url(../../assets/images/heroimg.png);
+  background-size: 100% 100%;
+}
+.hero-img-holder {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.ant-btn{
+  height: 42px;
+  &:hover{
+    color:#fff;
+  }
+}
+.ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+  color:#fff;
+}

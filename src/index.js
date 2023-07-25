@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './assets/akshar/static/Akshar-Medium.ttf';
-import './assets/plus-jakarta-sans/static/PlusJakartaSans-Regular.ttf';
-import './assets/roboto/Roboto-Regular.ttf';
+import './assets/Akshar/static/Akshar-Regular.woff';
+import './assets/plus-jakarta-sans/static/PlusJakartaSans-Regular.woff';
+import './assets/roboto/Roboto-Regular.woff';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

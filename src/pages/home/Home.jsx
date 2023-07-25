@@ -1,9 +1,13 @@
-import Footer from "../../components/common/footer/Footer";
+import Header from "../../components/common/header/Header";
+import Hero from "../../components/hero/Hero";
 import './home.scss';
 const Home = () => {
     return ( 
         <>
-     <Footer/>
+    <div className="herosection">
+        <Header/>
+        <Hero/>
+        </div>
         </>
      );
 }

@@ -1,0 +1,102 @@
+@import "../../../styles/variables";
+@import "../../../styles/mixins";
+section {
+  @include container;
+}
+.headerMenu {
+  @media (max-width: 772px) {
+    display: none;
+  }
+}
+.ant-menu {
+  background: none;
+  padding: 10px 0rem;
+  line-height: 31px;
+  font-family: "Orbitron", sans-serif;
+  font-size: 16px;
+  @media (max-width: 773px) {
+    padding: 5px 0.5rem;
+    width: 80%;
+  }
+}
+.menu-sec {
+  overflow: hidden;
+  width: fit-content;
+  gap: 0.5;
+  margin: auto;
+  color: $textprimary;
+  @media (max-width: 772px) {
+    margin: 1rem 0.5rem;
+  }
+
+  .ant-menu-item a {
+    color: #000;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    &:hover {
+      color: $secondry;
+    }
+    @media (max-width: 772px) {
+      color: $secondry;
+      &:hover {
+        color: #a3b0dc;
+      }
+    }
+    &.active {
+      color: $primary;
+    }
+  }
+}
+.logo {
+  width: 150px;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.menucollapsebtn {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  & .text {
+    margin: auto 10px;
+    color: $primary;
+  }
+  @media (min-width: 773px) {
+    display: none;
+  }
+}
+.ant-drawer-wraper {
+  border: none;
+  .ant-drawer .ant-drawer-body {
+    padding: 0px !important;
+    background: #898a902c;
+    border-right: none;
+    border: none;
+  }
+}
+.ant-drawer-content {
+  border-right: none;
+  background: #ffffff !important;
+}
+.btn-holder {
+  padding: 10px 12px;
+  .login-btn {
+    @include butn;
+    padding: 5px 22px !important;
+  }
+}
+.fa {
+  color: $primary;
+  font-size: 29px;
+}
+.ant-drawer .ant-drawer-body {
+  padding: 0px;
+}
+.ant-menu-inline .ant-menu-item {
+  padding: 0px 12px !important;
+  width: fit-content;
+  background: #fcfbfb94;
+}

@@ -1,24 +1,24 @@
 body {
-  margin: 0;
-  @font-face {
-    font-family: "Akshar";
-    src: url("./assets/akshar/static/Akshar-Medium.ttf");
-    font-weight:medium;
-  }
+  margin:0px;
   @font-face {
     font-family: "Roboto";
-    src: url("./assets/roboto/Roboto-Regular.ttf");
-    font-weight:medium;
+    src:local('Roboto'), url("./assets/roboto/Roboto-Regular.woff") format('woff'), ;
+    font-weight:normal;
   }
   @font-face {
     font-family: "Plus Jakarta Sans";
-    src: url("./assets/plus-jakarta-sans/static/PlusJakartaSans-Regular.ttf");
+    src:local('Plus Jakarta Sans'), url("./assets/plus-jakarta-sans/static/PlusJakartaSans-Regular.woff") format('woff');
+    font-weight:normal;
+  }  @font-face {
+    font-family: "Akshar";
+    src:local('Akshar'), url("./assets/Akshar/static/Akshar-Regular.woff") format('woff');
     font-weight:normal;
   }
-  font-family:"Akshar";
+
+  font-family:'Akshar';
 
 }
 
 code {
-  font-family:Akshar;
+  font-family:'Akshar';
 }
