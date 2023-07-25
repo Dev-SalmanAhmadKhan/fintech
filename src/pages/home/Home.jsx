@@ -1,9 +1,9 @@
-import Trustedby from "../../components/trustedby/Trustedby";
+import Footer from "../../components/common/footer/Footer";
 import './home.scss';
 const Home = () => {
     return ( 
         <>
-       <Trustedby/>
+     <Footer/>
         </>
      );
 }
