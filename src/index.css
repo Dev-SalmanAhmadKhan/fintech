@@ -2,16 +2,17 @@ body {
   margin:0px;
   @font-face {
     font-family: "Roboto";
-    src:local('Roboto'), url("./assets/roboto/Roboto-Regular.woff") format('woff'), ;
+    src:local('Roboto'), url("./assets/fonts/Roboto/Roboto-Regular.woff") format('woff'), ;
     font-weight:normal;
   }
   @font-face {
     font-family: "Plus Jakarta Sans";
-    src:local('Plus Jakarta Sans'), url("./assets/plus-jakarta-sans/static/PlusJakartaSans-Regular.woff") format('woff');
+    src:local('Plus Jakarta Sans'), url("./assets/fonts/plus-jakarta-sans/static/PlusJakartaSans-Regular.woff") format('woff');
     font-weight:normal;
-  }  @font-face {
+  } 
+  @font-face {
     font-family: "Akshar";
-    src:local('Akshar'), url("./assets/Akshar/static/Akshar-Regular.woff") format('woff');
+    src:local('Akshar'), url("./assets/fonts/Akshar/static/Akshar-Regular.woff") format('woff');
     font-weight:normal;
   }
 

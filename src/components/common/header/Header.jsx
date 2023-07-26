@@ -1,6 +1,6 @@
 import { Button, Drawer, Image, Menu } from "antd";
 import { useState } from "react";
-import logo from "./../../../assets/images/logos/logo.png";
+import logo from "./../../../assets/logos/logo.png";
 import "./header.scss";
 
 const Header = () => {
@@ -59,7 +59,7 @@ const HeaderNav = ({ isInline = false }) => {
             <Image src={logo} preview={false} />
           </div>
           <div className="menu-sec">
-            <Menu.Item>
+            <Menu.Item id={current}>
               <a href="/" className="active">
                 Home
               </a>

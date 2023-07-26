@@ -1,5 +1,6 @@
 @import "../../../styles/variables";
 @import "../../../styles/mixins";
+@import "../../../styles/fonts";
 section {
   @include container;
 }
@@ -12,7 +13,7 @@ section {
   background: none;
   padding: 10px 0rem;
   line-height: 31px;
-  font-family: "Orbitron", sans-serif;
+  font-family: "Plus Jakarta Sans";
   font-size: 16px;
   @media (max-width: 773px) {
     padding: 5px 0.5rem;
@@ -31,7 +32,7 @@ section {
 
   .ant-menu-item a {
     color: #000;
-    font-family: Plus Jakarta Sans;
+    font-family: "Plus Jakarta Sans";
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
