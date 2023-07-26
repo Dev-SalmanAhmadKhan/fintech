@@ -1,6 +1,6 @@
 @import "./../../../../styles/variables";
 @import "./../../../../styles/mixins";
-@import  "./../../../../styles/fonts.scss";
+@import "./../../../../styles/fonts.scss";
 
 .hero-section {
   padding-top: 5rem;
@@ -24,7 +24,7 @@
   }
 
   .hero-title {
-    font-family: 'Akshar';
+    font-family: "Akshar";
     font-size: 48px;
     font-style: normal;
     font-weight: 500;
@@ -55,7 +55,7 @@
     }
   }
   .hero-pera {
-    font-family:" Plus Jakarta Sans";
+    font-family: " Plus Jakarta Sans";
     font-size: 16px;
     font-weight: 400;
     color: $textsecondry;
@@ -68,7 +68,7 @@
 .hero-img {
   width: 100%;
   height: 100%;
-  min-height:40vh;
+  min-height: 40vh;
   background-image: url(../../../../assets/images/heroimg.png);
   background-size: 100% 100%;
 }
@@ -77,12 +77,12 @@
   display: flex;
   align-items: center;
 }
-.ant-btn{
+.ant-btn {
   height: 45px;
-  &:hover{
-    color:#fff;
+  &:hover {
+    color: #fff;
   }
 }
 .ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
-  color:#fff;
+  color: #fff;
 }

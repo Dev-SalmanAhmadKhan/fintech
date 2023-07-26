@@ -23,11 +23,11 @@ const Hero = () => {
                 managing asset, provide financial advise. Leave money issue with
                 us and focus on your core business.
               </p>
-              <Button className="hero-btn">Get started</Button>   
+              <Button className="hero-btn">Get started</Button>
             </div>
           </motion.div>
         </Col>
-        <Col md={10} xs={24} >
+        <Col md={10} xs={24}>
           <motion.div
             variants={{
               hidden: { opacity: 0 },
