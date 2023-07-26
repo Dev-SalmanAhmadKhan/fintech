@@ -1,4 +1,3 @@
-import React from "react"
 import './module.scss';
 const SectionHeading = ({ children, ...props }) => {
 	return (

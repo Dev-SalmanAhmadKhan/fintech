@@ -1,0 +1,14 @@
+@import url('./../../../styles/fonts.scss');
+@import "../../../styles/variables";
+h2.heading{
+    color: $textprimary;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Plus Jakarta Sans";
+    margin: 0px;
+    @media (max-width: 767px) {
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }

@@ -1,0 +1,14 @@
+@import url('./../../../styles/fonts.scss');
+@import "../../../styles/variables";
+p.pera{
+    font-family: "Plus Jakarta Sans";
+    color: $textsecondry;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0px;
+    @media (max-width: 767px) {
+      font-size: 14px;
+      font-weight: 400;
+    }
+}
