@@ -1,4 +1,5 @@
 import Header from "../../components/common/header/Header";
+import About from "../../components/pages/Home/Aboutus/About";
 import Hero from "../../components/pages/Home/Hero/Hero";
 import Services from "../../components/pages/Home/Services/Services";
 
@@ -11,6 +12,7 @@ const Home = () => {
         <Hero />
       </div>
       <Services/>
+      <About/>
     </>
   );
 };
