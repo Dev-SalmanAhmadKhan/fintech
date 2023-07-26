@@ -1,0 +1,50 @@
+@import "./../../../../styles/variables";
+@import "./../../../../styles/fonts";
+.achievements-section {
+  width: 100%;
+  background: var(
+    --linear,
+    linear-gradient(136deg, #124caf 0%, rgba(62, 147, 217, 0.71) 100%)
+  );
+  padding: 4rem 6rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 5rem;
+  gap: 2rem;
+  @media (max-width: 767px) {
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .achievements-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.8rem;
+    min-width: 200px;
+    padding: 24px 12px;
+    border-radius: 10px;
+    background: #ffffff;
+    .achievements-title {
+      color: $primary;
+      font-family: "Plus Jakarta Sans";
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 700;
+      margin-top: 1rem;
+    }
+    .achievements-pera {
+      color: $textprimary;
+      font-family: "Plus Jakarta Sans";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+    }
+    .achievements-img {
+      img {
+        max-width: 100px;
+      }
+    }
+  }
+}
