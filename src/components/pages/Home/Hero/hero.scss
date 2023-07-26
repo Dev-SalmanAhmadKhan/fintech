@@ -1,5 +1,7 @@
-@import "./../../styles/variables";
-@import "./../../styles/mixins";
+@import "./../../../../styles/variables";
+@import "./../../../../styles/mixins";
+@import  "./../../../../styles/fonts.scss";
+
 .hero-section {
   padding-top: 5rem;
   gap: 1.5rem 0rem;
@@ -11,7 +13,6 @@
   padding: 3rem 2rem 3rem 20%;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
   @media (max-width: 992px) {
     padding: 5rem 3rem 5rem 12%;
   }
@@ -23,14 +24,17 @@
   }
 
   .hero-title {
+    font-family: 'Akshar';
     font-size: 48px;
+    font-style: normal;
     font-weight: 500;
-    color: $textprimary;
+    color: $textsecondry;
     border-top: 5px solid $primary;
     border-image: linear-gradient(to right, $secondry 100px, transparent 100px)
       100% 1;
     padding-top: 8px;
     line-height: 1.1;
+    margin: 1rem 0rem;
     @media (max-width: 992px) {
       font-size: 40px;
       font-weight: 500;
@@ -51,25 +55,34 @@
     }
   }
   .hero-pera {
+    font-family:" Plus Jakarta Sans";
     font-size: 16px;
     font-weight: 400;
-    color: $textprimary;
+    color: $textsecondry;
   }
   .hero-btn {
-    font-size: 16px;
-    line-height: 31px;
+    margin-top: 0.5rem;
     @include butn;
   }
 }
-.hero-img-holder{
-  height: 100%;
-  display: flex;
-  align-items: center;
 .hero-img {
   width: 100%;
   height: 100%;
-  min-height: 50vh;
-  background-image: url(../../assets/images/heroimg.png);
+  min-height:40vh;
+  background-image: url(../../../../assets/images/heroimg.png);
   background-size: 100% 100%;
 }
+.hero-img-holder {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.ant-btn{
+  height: 45px;
+  &:hover{
+    color:#fff;
+  }
+}
+.ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+  color:#fff;
 }

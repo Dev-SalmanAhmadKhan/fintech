@@ -1,13 +1,25 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin:0px;
+  @font-face {
+    font-family: "Roboto";
+    src:local('Roboto'), url("./assets/fonts/Roboto/Roboto-Regular.woff") format('woff'), ;
+    font-weight:normal;
+  }
+  @font-face {
+    font-family: "Plus Jakarta Sans";
+    src:local('Plus Jakarta Sans'), url("./assets/fonts/plus-jakarta-sans/static/PlusJakartaSans-Regular.woff") format('woff');
+    font-weight:normal;
+  } 
+  @font-face {
+    font-family: "Akshar";
+    src:local('Akshar'), url("./assets/fonts/Akshar/static/Akshar-Regular.woff") format('woff');
+    font-weight:normal;
+  }
+
+  font-family:'Akshar';
+
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family:'Akshar';
 }

@@ -1,6 +1,6 @@
-import { Drawer, Image, Menu } from "antd";
+import { Button, Drawer, Image, Menu } from "antd";
 import { useState } from "react";
-import logo from "./../../../assets/images/logos/logo.png";
+import logo from "./../../../assets/logos/logo.png";
 import "./header.scss";
 
 const Header = () => {
@@ -42,18 +42,24 @@ const Header = () => {
 };
 
 const HeaderNav = ({ isInline = false }) => {
+  const [current, setCurrent] = useState("1");
+  const onClick = (e) => {
+    console.log(e);
+    setCurrent(e.key);
+  };
   return (
     <>
       <div className="container">
         <Menu
           mode={isInline ? "inline" : "horizontal"}
-          style={{ border: 0 }}  
+          style={{ border: 0 }}
+          onClick={onClick}
         >
           <div className="logo">
             <Image src={logo} preview={false} />
           </div>
           <div className="menu-sec">
-            <Menu.Item>
+            <Menu.Item id={current}>
               <a href="/" className="active">
                 Home
               </a>
@@ -68,10 +74,8 @@ const HeaderNav = ({ isInline = false }) => {
               <a href="/">Services</a>
             </Menu.Item>
           </div>
-          <div className="social-icons">
-            <div className="btn-holder">
-              <div className="login-btn">Get A Quote</div>
-            </div>
+          <div className="btn-holder">
+            <Button className="login-btn">Get A Quote</Button>
           </div>
         </Menu>
       </div>

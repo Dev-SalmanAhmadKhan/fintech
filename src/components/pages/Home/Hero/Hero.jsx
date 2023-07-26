@@ -1,6 +1,7 @@
-import { Col, Row } from "antd";
+import { Button, Col, Row } from "antd";
 import "./hero.scss";
 import { motion } from "framer-motion";
+
 const Hero = () => {
   return (
     <>
@@ -12,21 +13,21 @@ const Hero = () => {
             transition={{ delay: 1, duration: 1.5 }}
           >
             <div className="hero-text">
-              <div className="hero-title">
+              <h1 className="hero-title">
                 Discover Our Personalized Approach to the Commercial{" "}
                 <span>Fintech</span> Market.
-              </div>
-              <div className="hero-pera">
+              </h1>
+              <p className="hero-pera">
                 We help you managing asset, provide financial advise. Leave
                 money issue with us and focus on your core business. We help you
                 managing asset, provide financial advise. Leave money issue with
                 us and focus on your core business.
-              </div>
-              <div className="hero-btn">Get started</div>
+              </p>
+              <Button className="hero-btn">Get started</Button>   
             </div>
           </motion.div>
         </Col>
-        <Col md={10} xs={24}>
+        <Col md={10} xs={24} >
           <motion.div
             variants={{
               hidden: { opacity: 0 },
