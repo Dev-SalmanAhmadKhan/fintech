@@ -74,9 +74,9 @@ const HeaderNav = ({ isInline = false }) => {
               <a href="/">Services</a>
             </Menu.Item>
           </div>
-            <div className="btn-holder">
-              <Button className="login-btn">Get A Quote</Button>
-              </div>
+          <div className="btn-holder">
+            <Button className="login-btn">Get A Quote</Button>
+          </div>
         </Menu>
       </div>
     </>
