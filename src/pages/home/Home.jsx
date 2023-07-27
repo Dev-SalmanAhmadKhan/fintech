@@ -7,6 +7,7 @@ import "./home.scss";
 import WhyUS from "../../components/pages/Home/Whyus/WhyUs";
 import Testimonials from "../../components/pages/Home/Testimonials/Testimonials";
 import Trustedby from "../../components/pages/Home/Trustedby/Trustedby";
+import Footer from "../../components/common/Footer/Footer";
 const Home = () => {
   return (
     <>
@@ -20,6 +21,7 @@ const Home = () => {
       <WhyUS/>
       <Testimonials/>
       <Trustedby/>
+      <Footer/>
     </>
   );
 };
