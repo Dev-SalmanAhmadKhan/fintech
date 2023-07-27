@@ -6,6 +6,7 @@ import Achievements from "../../components/pages/Home/Achievements/Achievements"
 import "./home.scss";
 import WhyUS from "../../components/pages/Home/Whyus/WhyUs";
 import Testimonials from "../../components/pages/Home/Testimonials/Testimonials";
+import Trustedby from "../../components/pages/Home/Trustedby/Trustedby";
 const Home = () => {
   return (
     <>
@@ -18,6 +19,7 @@ const Home = () => {
       <Achievements/>
       <WhyUS/>
       <Testimonials/>
+      <Trustedby/>
     </>
   );
 };
