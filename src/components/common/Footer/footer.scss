@@ -54,7 +54,7 @@ footer {
       color: #f5f5f5;
       font-size: 16px;
       font-weight: 600;
-         font-family: "Plus Jakarta Sans";
+      font-family: "Plus Jakarta Sans";
     }
     input {
       border: 1px solid #ffffff;
@@ -79,7 +79,7 @@ footer {
       @media (max-width: 997px) {
         font-size: 13px;
       }
-      &:hover{
+      &:hover {
         color: $secondry;
       }
     }
@@ -97,6 +97,9 @@ footer {
         padding: 0px;
         font-size: 13px !important;
       }
+    }
+    @media (max-width: 567px) {
+      width: 100%;
     }
     .ant-btn-link {
       color: #f5f5f5;

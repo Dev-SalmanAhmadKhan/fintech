@@ -17,11 +17,11 @@ const Home = () => {
       </div>
       <Services />
       <About />
-      <Achievements/>
-      <WhyUS/>
-      <Testimonials/>
-      <Trustedby/>
-      <Footer/>
+      <Achievements />
+      <WhyUS />
+      <Testimonials />
+      <Trustedby />
+      <Footer />
     </>
   );
 };
