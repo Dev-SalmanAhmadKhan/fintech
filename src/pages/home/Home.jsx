@@ -5,6 +5,7 @@ import Services from "../../components/pages/Home/Services/Services";
 import Achievements from "../../components/pages/Home/Achievements/Achievements";
 import "./home.scss";
 import WhyUS from "../../components/pages/Home/Whyus/WhyUs";
+import Testimonials from "../../components/pages/Home/Testimonials/Testimonials";
 const Home = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const Home = () => {
       <About />
       <Achievements/>
       <WhyUS/>
+      <Testimonials/>
     </>
   );
 };
