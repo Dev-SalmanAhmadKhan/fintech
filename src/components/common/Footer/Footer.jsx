@@ -33,8 +33,8 @@ const Footer = () => {
 
           <div className="footer-content-div">
             <div className="footer-contact-title">Get the latest news</div>
-            <Input placeholder="enter your email" />
-            <Button>subscribe</Button>
+            <Input placeholder="Enter your email" />
+            <Button className="newsletter-btn">subscribe</Button>
           </div>
         </div>
 
