@@ -1,8 +1,8 @@
-import "./testimonials.scss";
+import "./index-module.scss";
 import reviewerImg from "./../../../../assets/images/reviewer-img.png";
 import quoteImg from "./../../../../assets/images/quote.png";
 import { Carousel, Col, Image, Row } from "antd";
-import SectionHeading from "../../../layouts/SectionHeader/SectionHeader";
+import SectionHeading from "../../../layouts/SectionHeader/Index";
 const Testimonials = () => {
   return (
     <>

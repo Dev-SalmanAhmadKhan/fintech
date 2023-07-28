@@ -1,7 +1,7 @@
 import { Button, Drawer, Image, Menu } from "antd";
 import { useState } from "react";
 import logo from "./../../../assets/logos/logo.png";
-import "./header.scss";
+import "./index-module.scss";
 
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);

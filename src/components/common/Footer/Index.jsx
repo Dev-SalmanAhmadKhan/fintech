@@ -1,4 +1,4 @@
-import "./footer.scss";
+import "./index-module.scss";
 import logo1 from "./../../../assets/logos/footerlogo.png";
 import { Button, Image, Input } from "antd";
 const data = [

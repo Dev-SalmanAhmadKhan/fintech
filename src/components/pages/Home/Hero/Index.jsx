@@ -1,5 +1,5 @@
 import { Button, Col, Row } from "antd";
-import "./hero.scss";
+import "./index-module.scss";
 import { motion } from "framer-motion";
 
 const Hero = () => {

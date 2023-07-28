@@ -1,8 +1,8 @@
 import { Col, Row } from "antd";
-import "./about.scss";
+import "./index-module.scss";
 import { motion, useInView, useAnimation } from "framer-motion";
 import { useEffect, useRef } from "react";
-import SectionHeading from "../../../layouts/SectionHeader/SectionHeader";
+import SectionHeading from "../../../layouts/SectionHeader/Index";
 import Pera from "../../../layouts/Pera/Index";
 import Heading from "../../../layouts/Heading/Index";
 const About = () => {
