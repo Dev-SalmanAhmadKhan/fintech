@@ -1,5 +1,5 @@
 import About from "../../components/pages/Home/Aboutus/About";
-import Achievements from "../../components/pages/Home/achievements/Achievements";
+import Achievements from "../../components/pages/Home/Achievements/Achievements";
 import "./home.scss";
 const Home = () => {
   return (
