@@ -4,6 +4,7 @@ import Hero from "../../components/pages/Home/Hero/Hero";
 import Services from "../../components/pages/Home/Services/Services";
 import Achievements from "../../components/pages/Home/Achievements/Achievements";
 import "./home.scss";
+import WhyUS from "../../components/pages/Home/Whyus/WhyUs";
 const Home = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const Home = () => {
     <Services/>
       <About />
       <Achievements/>
+      <WhyUS/>
     </>
   );
 };
