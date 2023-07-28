@@ -4,8 +4,7 @@ Fintech is a Web application to automate and digitize financial services.
 
 ## `Live Demo`
 
-<a href="fintech-teal.vercel.app">Fintech</a>
-
+https://fintech-teal.vercel.app/
 ### `Technologies`
 
 React.js
