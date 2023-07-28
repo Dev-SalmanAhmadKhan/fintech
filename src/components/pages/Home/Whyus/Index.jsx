@@ -1,7 +1,7 @@
 import { Col, Image, Row } from "antd";
 import { motion, useInView, useAnimation } from "framer-motion";
 import { useEffect, useRef } from "react";
-import "./index-module.scss";
+import "./styles-module.scss";
 import SectionHeading from "../../../layouts/SectionHeader/Index";
 import Heading from "../../../layouts/Heading/Index";
 import Pera from "../../../layouts/Pera/Index";

@@ -1,5 +1,5 @@
 import { Col, Row } from "antd";
-import "./index-module.scss";
+import "./styles-module.scss";
 import { motion, useInView, useAnimation } from "framer-motion";
 import { useEffect, useRef } from "react";
 import SectionHeading from "../../../layouts/SectionHeader/Index";

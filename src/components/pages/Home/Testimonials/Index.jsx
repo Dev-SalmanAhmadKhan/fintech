@@ -1,4 +1,4 @@
-import "./index-module.scss";
+import "./styles-module.scss";
 import reviewerImg from "./../../../../assets/images/reviewer-img.png";
 import quoteImg from "./../../../../assets/images/quote.png";
 import { Carousel, Col, Image, Row } from "antd";

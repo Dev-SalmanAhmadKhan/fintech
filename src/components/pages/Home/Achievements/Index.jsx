@@ -1,5 +1,5 @@
 import { Row } from "antd";
-import "./index-module.scss";
+import "./styles-module.scss";
 import AchievementsCard from "./AchievementsCard";
 
 const Achievements = () => {

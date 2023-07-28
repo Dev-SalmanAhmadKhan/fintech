@@ -1,4 +1,4 @@
-import "./index-module.scss";
+import "./styles-module.scss";
 import { Image } from "antd";
 import data from "./data";
 const Trustedby = () => {

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import ServicesCard from "./ServicesCard";
-import "./index-module.scss";
+import "./styles-module.scss";
 import SectionHeading from "../../../layouts/SectionHeader/Index";
 import { Button } from "antd";
 const Services = () => {

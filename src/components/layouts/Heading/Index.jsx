@@ -1,4 +1,4 @@
-import './module.scss';
+import './styles-module.scss';
 const Heading = ({ children, ...props }) => {
 	return (
 		<>
