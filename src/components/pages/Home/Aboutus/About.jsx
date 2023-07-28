@@ -41,7 +41,6 @@ const About = () => {
                 </Pera>
 
                 <div className="our-aim-section">
-
                   <div className="about-aim">
                     <Heading className="heading"> Mission</Heading>
                     <Pera className="pera">
@@ -61,7 +60,6 @@ const About = () => {
                       help you managing asset.
                     </Pera>
                   </div>
-
                 </div>
               </div>
             </Col>
@@ -69,7 +67,6 @@ const About = () => {
             <Col md={10} xs={24}>
               <div className="about-img"></div>
             </Col>
-
           </Row>
         </motion.div>
       </div>

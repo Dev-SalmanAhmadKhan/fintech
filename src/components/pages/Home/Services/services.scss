@@ -8,7 +8,7 @@
 }
 .services-card-holder {
   @include container;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -104,5 +104,5 @@
 }
 .services-btn {
   @include butn;
-  margin:3rem auto  0rem auto;
+  margin: 3rem auto 0rem auto;
 }
