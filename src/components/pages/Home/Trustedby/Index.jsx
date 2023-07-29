@@ -1,11 +1,11 @@
 import "./styles-module.scss";
 import { Image } from "antd";
-import data from "./data";
+import {trustedbyData} from "../../../../assets/Content/Content";
 const Trustedby = () => {
   return (
     <>
       <div className="trustedby-section">
-        {data.map((data) => (
+        {trustedbyData.map((data) => (
           <div className="trustedby-card">
             <div className="trustedby-card-img">
               <Image src={data.img} preview={false} />

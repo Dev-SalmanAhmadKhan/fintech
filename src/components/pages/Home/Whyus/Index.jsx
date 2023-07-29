@@ -5,17 +5,19 @@ import "./styles-module.scss";
 import SectionHeading from "../../../layouts/SectionHeader/Index";
 import Heading from "../../../layouts/Heading/Index";
 import Pera from "../../../layouts/Pera/Index";
-import data from "./data";
+import { whyusData } from "../../../../assets/Content/Content";
 
 const WhyUS = () => {
   const ref = useRef(null);
   const isinview = useInView(ref, { once: true });
   const controls = useAnimation();
+
   useEffect(() => {
     if (isinview) {
       controls.start("visible");
     }
   }, [isinview]);
+
   return (
     <>
       <div ref={ref}>
@@ -42,7 +44,7 @@ const WhyUS = () => {
                   money issue with us and focus on your core business. We help
                   you managing asset, provide financial advise.
                   <div className="our-process-section">
-                    {data.map((data) => (
+                    {whyusData.map((data) => (
                       <div className="our-process">
                         <div className="our-process-img">
                           <Image src={data.img} preview={false} />
@@ -55,6 +57,7 @@ const WhyUS = () => {
                 </Pera>
               </div>
             </Col>
+
             <Col md={10} xs={24}>
               <div className="why-us-img"></div>
             </Col>
