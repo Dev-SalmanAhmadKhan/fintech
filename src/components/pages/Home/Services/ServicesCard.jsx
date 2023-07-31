@@ -1,9 +1,9 @@
 import { Image } from "antd";
-import data from "./data";
+import {servicesData} from "../../../content/Content";
 const ServicesCard = () => {
   return (
     <>
-      {data.map((data) => (
+      {servicesData.map((data) => (
         <div className="services-card">
           <div className="card-header">
             <div className="card-header-img-holder">

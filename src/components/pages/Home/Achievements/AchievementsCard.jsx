@@ -1,9 +1,9 @@
-import data from "./data";
+import {achievementsData} from "../../../content/Content";
 import { Image } from "antd";
 const AchievementsCard = () => {
   return (
     <>
-      {data.map((data) => (
+      {achievementsData.map((data) => (
         <div className="achievements-card">
           <div className="achievements-img">
             <Image src={data.img} preview={false} />
