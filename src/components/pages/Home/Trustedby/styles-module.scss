@@ -1,15 +1,14 @@
 .trustedby-section {
-  min-height: 35vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 4em 5rem;
+  padding: 4rem 9rem;
   gap: 0.5rem;
   @media (max-width: 767px) {
     justify-content: center;
-    padding: 2em 0.5rem;
+    padding: 3rem 0.5rem;
   }
   .trustedby-card {
     min-width: 210px;
@@ -17,10 +16,14 @@
     display: flex;
     text-align: center;
     align-items: center;
+    margin-top: 2rem;
     border: 2px solid #e9edeeae;
     border-radius: 5px;
     .trustedby-card-img {
       width: 100%;
+    }
+    @media (max-width:467px) {
+margin-top: 1rem;
     }
   }
 }

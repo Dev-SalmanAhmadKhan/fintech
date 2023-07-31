@@ -6,16 +6,21 @@
     --linear,
     linear-gradient(136deg, #124caf 0%, rgba(62, 147, 217, 0.71) 100%)
   );
-  padding: 4rem 6rem;
+  padding: 4rem 8.5rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 5rem;
   gap: 2rem;
   @media (max-width: 767px) {
     justify-content: center;
     margin-top: 2rem;
+    padding: 4rem 2rem;
+  }
+  @media (max-width: 457px) {
+    margin-top: 2rem;
+    padding: 4rem 1rem;
   }
   .achievements-card {
     display: flex;

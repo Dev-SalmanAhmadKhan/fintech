@@ -1,4 +1,4 @@
-import './module.scss';
+import './styles-module.scss';
 const Pera = ({ children, ...props }) => {
 	return (
 		<>

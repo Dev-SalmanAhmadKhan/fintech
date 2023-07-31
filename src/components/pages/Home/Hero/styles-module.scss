@@ -20,7 +20,7 @@
     padding: 3rem 3rem 3rem 8%;
   }
   @media (max-width: 457px) {
-    padding: 1rem 0rem 1.5rem 1%;
+    padding: 1rem 0.5rem 1.5rem;
   }
 
   .hero-title {
@@ -78,9 +78,12 @@
   align-items: center;
 }
 .ant-btn {
-  height: 45px;
+  height: 43px;
   &:hover {
     color: #fff;
+  }
+  @media (max-width:467px) {
+    height:39px;
   }
 }
 .ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {

@@ -1,4 +1,5 @@
 @import "./../../../../styles/variables";
+@import "./../../../../styles/fonts";
 .section {
   padding-top: 3rem;
   @media (max-width: 767px) {
@@ -10,7 +11,7 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  font-family: Roboto;
+  font-family: "Plus Jakarta Sans";
 
   @media (max-width: 992px) {
     padding: 5rem 3rem 5rem 12%;
@@ -20,7 +21,7 @@
     gap: 1rem;
   }
   @media (max-width: 457px) {
-    padding: 1rem 0rem 1.5rem 1%;
+    padding: 1rem 0.5rem 1.5rem;
   }
   .our-aim-section {
     display: flex;
