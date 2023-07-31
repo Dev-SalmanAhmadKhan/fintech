@@ -1,4 +1,4 @@
-import {achievementsData} from "../../../../assets/Content/Content";
+import {achievementsData} from "../../../content/Content";
 import { Image } from "antd";
 const AchievementsCard = () => {
   return (

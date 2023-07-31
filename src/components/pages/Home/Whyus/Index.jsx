@@ -5,7 +5,7 @@ import "./styles-module.scss";
 import SectionHeading from "../../../layouts/SectionHeader/Index";
 import Heading from "../../../layouts/Heading/Index";
 import Pera from "../../../layouts/Pera/Index";
-import { whyusData } from "../../../../assets/Content/Content";
+import { whyusData } from "../../../content/Content";
 
 const WhyUS = () => {
   const ref = useRef(null);

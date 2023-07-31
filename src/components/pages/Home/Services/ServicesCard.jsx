@@ -1,5 +1,5 @@
 import { Image } from "antd";
-import {servicesData} from "../../../../assets/Content/Content";
+import {servicesData} from "../../../content/Content";
 const ServicesCard = () => {
   return (
     <>

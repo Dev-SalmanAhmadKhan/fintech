@@ -1,6 +1,6 @@
 import "./styles-module.scss";
 import { Image } from "antd";
-import {trustedbyData} from "../../../../assets/Content/Content";
+import {trustedbyData} from "../../../content/Content";
 const Trustedby = () => {
   return (
     <>
