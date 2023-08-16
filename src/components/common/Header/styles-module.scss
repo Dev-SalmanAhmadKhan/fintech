@@ -46,9 +46,9 @@ section {
         color: #a3b0dc;
       }
     }
-    &.active {
-      color: $primary;
-    }
+  }
+  .ant-menu-item a.active {
+    color: $primary;
   }
 }
 .logo {
@@ -101,3 +101,6 @@ section {
   width: fit-content;
   background: #fcfbfb94;
 }
+.ant-menu-light .ant-menu-item-selected{
+	background-color: #ffffff00 !important;
+ }
