@@ -1,7 +1,9 @@
 import { Button, Drawer, Image, Menu } from "antd";
 import { useState } from "react";
+import { MenuItems } from "../../content/Content";
 import logo from "./../../../assets/logos/logo.png";
 import "./styles-module.scss";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -42,10 +44,10 @@ const Header = () => {
 };
 
 const HeaderNav = ({ isInline = false }) => {
-  const [current, setCurrent] = useState("1");
-  const onClick = (e) => {
-    console.log(e);
-    setCurrent(e.key);
+  const [current, setCurrent] = useState('1');
+  const handelClick = (key) => {
+    setCurrent(key);
+    console.log(current);
   };
   return (
     <>
@@ -53,26 +55,20 @@ const HeaderNav = ({ isInline = false }) => {
         <Menu
           mode={isInline ? "inline" : "horizontal"}
           style={{ border: 0 }}
-          onClick={onClick}
         >
           <div className="logo">
             <Image src={logo} preview={false} />
           </div>
           <div className="menu-sec">
-            <Menu.Item id={current}>
-              <a href="/" className="active">
-                Home
-              </a>
-            </Menu.Item>
-            <Menu.Item>
-              <a href="/">About</a>
-            </Menu.Item>
-            <Menu.Item>
-              <a href="/">Contect</a>
-            </Menu.Item>
-            <Menu.Item>
-              <a href="/">Services</a>
-            </Menu.Item>
+          {MenuItems.map((data) => (
+              <>
+                  <Menu.Item key = {data.key}    >
+                    <Link to={data.link} className = {current == data.key ? "active" : ''}  onClick = { () => handelClick(data.key)}  >
+                      {data.name}
+                    </Link>
+                  </Menu.Item>
+              </>
+            ))}
           </div>
           <div className="btn-holder">
             <Button className="login-btn">Get A Quote</Button>

@@ -15,6 +15,13 @@ import whyusIcon1 from "../../assets/images/why-us-icon1.png";
 import whyusIcon2 from "../../assets/images/why-us-icon2.png";
 import whyusIcon3 from "../../assets/images/why-us-icon3.png";
 
+const MenuItems = [
+  { name: "Home", link: "/", key: 1 },
+  { name: "About", link: "/", key: 2 },
+  { name: "Categories", link: "/", key: 3  },
+  { name: "Features", link: "/", key: 4 },
+  { name: "Contect", link: "/", key: 5 },
+];
 
 const achievementsData = [
   { img: achievementsIcon1, number: "1500+", title: "Successful Cases" },
@@ -76,4 +83,4 @@ const whyusData = [
     },
   ];
 
-export { achievementsData, servicesData, trustedbyData , whyusData};
+export {MenuItems, achievementsData, servicesData, trustedbyData , whyusData};
